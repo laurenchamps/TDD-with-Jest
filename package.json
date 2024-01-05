@@ -4,7 +4,8 @@
   "description": "Testing with Jest - project for the Odin Project",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "node src/cipher.js"
   },
   "author": "",
   "license": "ISC",
