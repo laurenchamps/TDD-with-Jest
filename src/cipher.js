@@ -3,11 +3,11 @@ const alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm
 const caesarCipher = function(string, shift) {
     if (typeof string !== 'string') return 'First argument must be a string';
     if (typeof shift !== 'number') return 'Second argument must be a number';
-    
+
     const originalArr = string.split('');
     const encryptedArr = [];
   
-    originalArr.forEach((char, i) => {
+    originalArr.forEach((char) => {
       let curIndex;
       let newIndex;
     
